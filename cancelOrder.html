@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주문 취소</title>
+</head>
+<body>
+    <div>
+        <h2>주문 취소</h2>
+        <form action="/cancel-order" method="POST">
+            <label for="order-number">주문 번호:</label><br>
+            <input type="text" id="order-number" name="order-number" required><br><br>
+            <button type="submit">주문 취소</button>
+        </form>
+    </div>
+</body>
+</html>
